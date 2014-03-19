@@ -47,6 +47,18 @@ background-color: blue;
 .header {
   border-bottom: 1px solid #e5e5e5;
 }
+
+.header-right{
+  float: right;
+}
+.move-left{
+  float: left;
+  margin-right: 2em;
+  display: inline-block;
+}
+.thread{
+  display: block;
+}
 /* Make the masthead heading the same height as the navigation */
 /*.header h3 {
   margin-top: 0;

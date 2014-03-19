@@ -26,3 +26,12 @@
         </div><!--/.nav-collapse -->
       </div>
  </div>
+ <div class = "starter-template">
+<h1>We're having a baby! <small class = "header-right">October 10th, 2014</small></h1>
+<div class = "move-left">
+  <iframe width="350" height="240" src="//w2.countingdownto.com/493439" frameborder="0"></iframe><p><a href="http://countingdownto.com">Countdown Clocks</a></p>
+</div>
+<p class = "well well-lg thread" ng-repeat = "(id, name) in threads">{{name.body}}</p>
+<textarea class="form-control" rows="3" ng-keydown="addThread($event)" ng-model = "thread"></textarea>
+</div>
+
